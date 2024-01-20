@@ -35,7 +35,7 @@ const char* www_username = "username";
 const char* www_password = "password";
 
 
-// Создаем объект веб-сервера CreateAsync на порту 80
+// Создаем объект веб-сервера на порту 80
 AsyncWebServer server(80);
 
 // датчик DHT
