@@ -29,7 +29,8 @@ Configuration config = {
 //#define DHTTYPE DHT21   // DHT 21 (AM2301)
 #define DHTTYPE DHT22  // DHT 22  (AM2302), AM2321
 
-// Auth авторизация для сервера
+
+// Установите логин и пароль при открытии WEB-адреса.
 const char* www_username = "username";
 const char* www_password = "password";
 
